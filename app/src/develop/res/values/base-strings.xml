@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="login_url">http://10.0.2.2:4000/invalidate</string>
+    <string name="registration_url">http://10.0.2.2:4567/add</string>
+    <string name="mobile_connection_url">http://10.0.2.2:4000/</string>
+    <string name="sender_id">148894906651</string>
+</resources>

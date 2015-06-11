@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="login_url">prodstring</string>
+    <string name="registration_url">prodaction</string>
+    <string name="mobile_connection_url">prod</string>
+    <string name="sender_id">93820</string>
+</resources>

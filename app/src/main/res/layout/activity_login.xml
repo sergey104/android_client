@@ -1,0 +1,168 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#00A15F">
+
+
+    <!--  Header Starts-->
+    <LinearLayout android:id="@+id/header"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#00A15F"
+        android:elevation="6dp"
+        android:paddingBottom="5dip">
+
+        <TextView
+           android:layout_width="wrap_content"
+           android:text="@string/login"
+           android:gravity="center"
+           android:textSize="20dip"
+           android:textColor="#FFFFFF"
+           android:layout_height="wrap_content"
+           android:textStyle="bold"
+           android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+    <!--  Header Ends -->
+    <!-- Body start -->
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:background="@android:color/white">
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout">
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dip"
+                    android:id="@+id/login_form">
+
+                    <EditText android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dip"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                    android:layout_marginBottom="20dip"
+                    android:id="@+id/mobile_number"
+                    android:hint="(310)1234567"
+                    android:singleLine="true" />
+                <!--  Password Label -->
+                    <EditText android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dip"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                    android:layout_marginTop="5dip"
+                    android:singleLine="true"
+                    android:hint="*********"
+                    android:id="@+id/password"
+                    android:password="true"/>
+
+                    <TextView
+                    android:id="@+id/warning_all"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FF1F53"
+                    android:text="@string/invalid_warning_all"
+                    android:textSize="15dip"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:layout_alignBaseline="@+id/link_to_register"
+                    android:layout_alignBottom="@+id/link_to_register"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <!-- Login button -->
+                <Button android:id="@+id/btnLogin"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dip"
+                    android:layout_marginBottom="15dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/login"
+                    android:onClick="onClick"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    style="@style/HabraThemeButton"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+            <!-- Horisontal line -->
+            <LinearLayout
+                android:layout_marginTop="15dip"
+                android:layout_width="fill_parent"
+                android:background="#C2C2c2"
+                android:layout_marginBottom="0dp"
+                android:layout_height="1dip">
+           </LinearLayout>
+           <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="#EEEEEE">
+
+            <Button android:id="@+id/forgot_password"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dip"
+                android:layout_marginBottom="25dp"
+                android:textColor="#ffffff"
+                android:text="@string/forgot_my_password"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+
+                android:textSize="16dp"
+                style="@style/HabraThemeButton" />
+
+            <TextView android:id="@+id/link_to_register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_account"
+                android:gravity="center"
+                android:textSize="20dip"
+                android:textColor="#0b84aa"
+                android:onClick="getRegister"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button android:id="@+id/btnregister"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dip"
+                android:layout_marginBottom="12dp"
+                android:textColor="#ffffff"
+                android:text="@string/create_account"
+                android:onClick="getRegister"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                style="@style/HabraThemeButton" />
+
+            <!-- Login Form Ends -->
+                </LinearLayout>
+
+
+            </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+
