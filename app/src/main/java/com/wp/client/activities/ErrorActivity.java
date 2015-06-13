@@ -1,4 +1,4 @@
-package com.sep.client.activities;
+package com.wp.client.activities;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -11,8 +11,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
-import com.sep.client.R;
-import com.sep.client.util.NetworkUtil;
+import com.wp.client.R;
+import com.wp.client.util.NetworkUtil;
 
 public class ErrorActivity extends Activity {
     private static final String TAG = "ErrorActivity";

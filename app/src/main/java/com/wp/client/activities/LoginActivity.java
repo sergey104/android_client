@@ -1,4 +1,4 @@
-package com.sep.client.activities;
+package com.wp.client.activities;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -24,8 +24,8 @@ import com.android.volley.toolbox.StringRequest;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
-import com.sep.client.Application;
-import com.sep.client.R;
+import com.wp.client.Application;
+import com.wp.client.R;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;

@@ -1,4 +1,4 @@
-package com.sep.client.activities;
+package com.wp.client.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -8,8 +8,8 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.sep.client.Application;
-import com.sep.client.R;
+import com.wp.client.Application;
+import com.wp.client.R;
 
 
 public class BrowserActivity extends ActionBarActivity {

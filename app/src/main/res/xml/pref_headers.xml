@@ -2,15 +2,15 @@
 
     <!-- These settings headers are only used on tablets. -->
 
-    <header android:fragment="com.sep.client.activities.SettingsActivity$GeneralPreferenceFragment"
+    <header android:fragment="com.wp.client.activities.SettingsActivity$GeneralPreferenceFragment"
         android:title="@string/pref_header_general" />
 
     <header
-        android:fragment="com.sep.client.activities.SettingsActivity$NotificationPreferenceFragment"
+        android:fragment="com.wp.client.activities.SettingsActivity$NotificationPreferenceFragment"
         android:title="@string/pref_header_notifications" />
 
     <header
-        android:fragment="com.sep.client.activities.SettingsActivity$DataSyncPreferenceFragment"
+        android:fragment="com.wp.client.activities.SettingsActivity$DataSyncPreferenceFragment"
         android:title="@string/pref_header_data_sync" />
 
 </preference-headers>

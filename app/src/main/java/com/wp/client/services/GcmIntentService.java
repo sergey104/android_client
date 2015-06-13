@@ -14,21 +14,19 @@
  * limitations under the License.
  */
 
-package com.sep.client.services;
+package com.wp.client.services;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
-import com.sep.client.Application;
-import com.sep.client.activities.BrowserActivity;
-import com.sep.client.receivers.GcmBroadcastReceiver;
-import com.sep.client.activities.LoginActivity;
-import com.sep.client.R;
+import com.wp.client.Application;
+import com.wp.client.activities.BrowserActivity;
+import com.wp.client.receivers.GcmBroadcastReceiver;
+import com.wp.client.R;
 
 import android.app.IntentService;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;

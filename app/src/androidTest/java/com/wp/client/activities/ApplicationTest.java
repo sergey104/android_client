@@ -1,4 +1,4 @@
-package com.sep.client.activities;
+package com.wp.client.activities;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

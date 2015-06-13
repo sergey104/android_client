@@ -1,4 +1,4 @@
-package com.sep.client.activities;
+package com.wp.client.activities;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,7 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.sep.client.R;
+import com.wp.client.R;
 
 import java.util.Locale;
 

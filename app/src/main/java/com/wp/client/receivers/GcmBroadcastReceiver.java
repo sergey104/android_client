@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.sep.client.receivers;
+package com.wp.client.receivers;
 
 import android.app.Activity;
 import android.content.ComponentName;
@@ -21,8 +21,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v4.content.WakefulBroadcastReceiver;
 
-import com.sep.client.activities.LoginActivity;
-import com.sep.client.services.GcmIntentService;
+import com.wp.client.services.GcmIntentService;
 
 /**
  * This {@code WakefulBroadcastReceiver} takes care of creating and managing a

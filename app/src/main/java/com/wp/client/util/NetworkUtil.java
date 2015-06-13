@@ -1,4 +1,4 @@
-package com.sep.client.util;
+package com.wp.client.util;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

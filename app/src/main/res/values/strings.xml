@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SEP client</string>
+    <string name="app_name">Tarot GCM  client</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>

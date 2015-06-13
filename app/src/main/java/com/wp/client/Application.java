@@ -1,4 +1,4 @@
-package com.sep.client;
+package com.wp.client;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
